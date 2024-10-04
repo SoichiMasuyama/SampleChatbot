@@ -1,0 +1,51 @@
+# Python 関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.log
+
+# 仮想環境
+venv/
+env/
+ENV/
+.venv/
+.venv.bak/
+
+# Rasa 関連
+.rasa/
+models/
+results/
+logs/
+*.lock
+
+# VSCode 関連
+.vscode/
+*.code-workspace
+
+# システム関連
+.DS_Store
+Thumbs.db
+
+# その他IDE関連
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Pipenv
+Pipfile.lock
+
+# バックアップファイル
+*.bak
+*.swp
