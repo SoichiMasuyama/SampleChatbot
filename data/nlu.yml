@@ -30,62 +30,31 @@ nlu:
     - bye bye
     - see you later
 
-- intent: affirm
+- intent: thanks
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - thanks
+    - thank you
+    - appreciated it
+    - many thanks
 
-- intent: deny
+- intent:  order_pizza
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - I want to order a [pizza](food)
+    - can i get a [pizza](food)
+    - i'd like to have a [pizza](food)
+    - How about a [pizza](food)
 
-- intent: mood_great
+- intent: order_food
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - I want to order a food
+    - Can i get some food, please
+    - Let's order some food
 
-- intent: mood_unhappy
+- intent: inform_food
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - [steak](food)
+    - [burger](food)
+    - [sushi](food)
+    - [salad](food)
+    - [pasta](food)
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
